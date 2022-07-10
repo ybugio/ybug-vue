@@ -1,0 +1,39 @@
+{
+  "name": "ybug-vue",
+  "version": "1.0.0",
+  "main": "./dist/index.umd.js",
+  "files": ["dist/*"],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ybugio/ybug-vue.git"
+  },
+  "keywords": [
+    "vue",
+    "ybug",
+    "ybug.io",
+    "feedback widget"
+  ],
+  "author": "Radim Hernych",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ybugio/ybug-vue/issues"
+  },
+  "homepage": "https://github.com/ybugio/ybug-vue#readme",
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.0",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "eslint": "^8.5.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "prettier": "^2.5.1",
+    "vite": "^2.9.12"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.37"
+  }
+}
