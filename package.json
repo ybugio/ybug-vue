@@ -2,7 +2,9 @@
   "name": "ybug-vue",
   "version": "1.0.0",
   "main": "./dist/index.umd.js",
-  "files": ["dist/*"],
+  "files": [
+    "dist/*"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
