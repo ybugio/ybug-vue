@@ -28,6 +28,7 @@ app.use(Ybug, {
 ```
 
 ## Usage
+You can use any method mentioned in the official documentation.
 
 ### Usage with Composition API
 You can `inject('ybug')` in your Composition API components.
