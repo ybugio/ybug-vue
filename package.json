@@ -1,6 +1,6 @@
 {
   "name": "ybug-vue",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "./dist/index.umd.js",
   "files": [
     "dist/*"
@@ -18,6 +18,7 @@
     "vue",
     "ybug",
     "ybug.io",
+    "feedback",
     "feedback widget"
   ],
   "author": "Radim Hernych",

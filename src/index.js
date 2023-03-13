@@ -14,6 +14,9 @@ const initYbug = (id, settings) => {
     if (!isInitialized) {
         const script = document.createElement('script');
         script.async = true;
+        if (settings.nonce) {
+            script.nonce = settings.nonce;
+        }
         script.src = scriptUrl(id);
         document.head.appendChild(script);
         isInitialized = true;
