@@ -1,7 +1,9 @@
 # Ybug-vue
 
 A simple Vue 3 wrapper for
-[Ybug's](https://ybug.io) [Feedback Widget API](https://ybug.io/docs/installation).
+[Ybug's](https://ybug.io) [Feedback Widget API](https://ybug.io/docs/installation). 
+
+For Vue 2 version of the plugin please check this gist: [Ybug Plugin for Vue 2](https://gist.github.com/hernest/981a81d734928db84d00deaca548609b).
 
 ## Installation
 
